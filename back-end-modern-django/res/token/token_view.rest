@@ -1,0 +1,46 @@
+### Get Access Token by User
+
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api/token/
+Content-Type: application/json
+
+{
+    "username": "adminanhtudev",
+    "password": "anhtudev2003"
+}
+
+### Get Access Token by Admin
+
+POST http://127.0.0.1:8000/api/token/
+Content-Type: application/json
+
+{
+    "username": "devtestadmin",
+    "password": "@Sdevtestadmin2024"
+}
+
+
+
+### Get Refresh Token
+
+POST http://127.0.0.1:8000/api/token/refresh/
+Content-Type: application/json
+
+{
+    "refresh": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxMDM3OTQ0MCwiaWF0IjoxNzEwMjA2NjQwLCJqdGkiOiJiMGY3YWIzOTM1MDg0NGI2Yjk0MjgxMjJiYTFiNmQyMiIsInVzZXJfaWQiOjF9.yOXkcoXDt9QosXkMydGYOtNzGvFieDD5k2SNwQB7369Y99RkQCgPsKAVWLxmED6luIU06SHSyZB13XHR4IbnRg"
+}
+
+### Get Token For Sending Email
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/token/
+Content-Type: application/json
+
+{
+    "email": "techdev.td1111@gmail.com"
+}
+
+
+### Get Token For Checking Token In Email
+GET http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/token/
+Content-Type: application/json
+Authorization: JWT eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0NzA5Mzc2LCJpYXQiOjE3MTQ2MjI5MTYsImp0aSI6IjZhODFhYTkyMzdmYzQ5MzJiMmYyMTZkNWUzMTNlN2I5IiwidXNlcl9pZCI6MTB9.2wLM6o4sDYBs3YRkxC3BwcxSJO3F_52-UfKQZ0xy7MTxjh0vjLF0a4S17tc3BPoplLyPwAZXvTSoDHKIrM5SnQ
+
+

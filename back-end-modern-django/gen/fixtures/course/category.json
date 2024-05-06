@@ -1,0 +1,182 @@
+[
+    {
+        "model": "web_app.category",
+        "pk": 1,
+        "fields": {
+            "category_name": "Python",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 2,
+        "fields": {
+            "category_name": "Java",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 3,
+        "fields": {
+            "category_name": "C++",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 4,
+        "fields": {
+            "category_name": "Web Development",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 5,
+        "fields": {
+            "category_name": "Data Science",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 6,
+        "fields": {
+            "category_name": "Machine Learning",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 7,
+        "fields": {
+            "category_name": "Artificial Intelligence",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 8,
+        "fields": {
+            "category_name": "Database Management",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 9,
+        "fields": {
+            "category_name": "Mobile Development",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 10,
+        "fields": {
+            "category_name": "Game Development",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 11,
+        "fields": {
+            "category_name": "Frontend Development",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 12,
+        "fields": {
+            "category_name": "Backend Development",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 13,
+        "fields": {
+            "category_name": "Software Engineering",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 14,
+        "fields": {
+            "category_name": "Cybersecurity",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 15,
+        "fields": {
+            "category_name": "Cloud Computing",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 16,
+        "fields": {
+            "category_name": "IoT (Internet of Things)",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 17,
+        "fields": {
+            "category_name": "Blockchain",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 18,
+        "fields": {
+            "category_name": "DevOps",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 19,
+        "fields": {
+            "category_name": "Embedded Systems",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.category",
+        "pk": 20,
+        "fields": {
+            "category_name": "UI/UX Design",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    }
+]

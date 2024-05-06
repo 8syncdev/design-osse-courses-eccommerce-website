@@ -1,0 +1,72 @@
+[
+    {
+        "model": "web_app.course",
+        "pk": 1,
+        "fields": {
+            "title": "C++ Programming Fundamentals",
+            "description": "Khóa học này nhằm mục đích giúp bạn học cách lập trình bằng ngôn ngữ C++. Bắt đầu từ những kiến thức cơ bản như cú pháp, cấu trúc dữ liệu, và lệnh điều khiển, khóa học sau đó sẽ tiến xa hơn vào các chủ đề nâng cao như lập trình hướng đối tượng, quản lý bộ nhớ, và template. Bằng cách thực hành các bài tập và dự án thực tế, bạn sẽ trở thành một lập trình viên C++ tự tin.",
+            "price": 150.0,
+            "instructor": 1,
+            "discount": null,
+            "extent": 1,
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.course",
+        "pk": 2,
+        "fields": {
+            "title": "Java Programming Basics",
+            "description": "Trong khóa học này, bạn sẽ học cách lập trình bằng ngôn ngữ Java. Bạn sẽ bắt đầu với các kiến thức cơ bản như cú pháp, kiểu dữ liệu, và lệnh điều khiển. Sau đó, khóa học sẽ đi sâu vào các khái niệm quan trọng như lập trình hướng đối tượng, xử lý ngoại lệ, và xử lý chuỗi. Bằng cách thực hành các bài tập và dự án thực tế, bạn sẽ xây dựng nền tảng vững chắc trong lập trình Java.",
+            "price": 180.0,
+            "instructor": 2,
+            "discount": null,
+            "extent": 1,
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.course",
+        "pk": 3,
+        "fields": {
+            "title": "Python Programming Essentials",
+            "description": "Khóa học này sẽ giúp bạn học cách lập trình bằng ngôn ngữ Python. Bạn sẽ bắt đầu với các khái niệm cơ bản như cú pháp, kiểu dữ liệu, và lệnh điều khiển. Sau đó, khóa học sẽ đi sâu vào các chủ đề như xử lý chuỗi, đối tượng và lập trình hàm. Bằng cách thực hành các bài tập và dự án thực tế, bạn sẽ trở thành một lập trình viên Python có kỹ năng.",
+            "price": 130.0,
+            "instructor": 3,
+            "discount": null,
+            "extent": 1,
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.course",
+        "pk": 4,
+        "fields": {
+            "title": "C# Programming for Beginners",
+            "description": "Trong khóa học này, bạn sẽ học cách lập trình bằng ngôn ngữ C#. Bạn sẽ bắt đầu với các kiến thức cơ bản như cú pháp, kiểu dữ liệu, và lệnh điều khiển. Sau đó, khóa học sẽ tiếp tục với các chủ đề quan trọng như lập trình hướng đối tượng, xử lý ngoại lệ, và xử lý chuỗi. Bằng cách thực hành các bài tập và dự án thực tế, bạn sẽ có khả năng phát triển ứng dụng C# đơn giản.",
+            "price": 170.0,
+            "instructor": 4,
+            "discount": null,
+            "extent": 1,
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.course",
+        "pk": 5,
+        "fields": {
+            "title": "Advanced C++ Programming",
+            "description": "Khóa học này là một bước tiếp theo trong việc học lập trình bằng ngôn ngữ C++. Bạn sẽ khám phá các chủ đề nâng cao như quản lý bộ nhớ, con trỏ, và lập trình generic. Khóa học cũng đi sâu vào các khái niệm như lập trình hướng đối tượng tiên tiến và template. Bằng cách thực hành các bài tập và dự án thực tế, bạn sẽ trở thành một lập trình viên C++ chuyên nghiệp.",
+            "price": 200.0,
+            "instructor": 5,
+            "discount": null,
+            "extent": 1,
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    }
+]

@@ -1,0 +1,12 @@
+
+
+
+# Ignore all files Environment
+/*venv*
+*venv*
+*env*
+/*env*
+
+# Ignore all files cache
+/__pycache__
+__pycache__

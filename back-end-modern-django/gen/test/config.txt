@@ -1,0 +1,196 @@
+# This is an auto-generated Django model module.
+# You'll have to do the following manually to clean this up:
+#   * Rearrange models' order
+#   * Make sure each model has one field with primary_key=True
+#   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
+#   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
+# Feel free to rename the models, but don't rename db_table values or field names.
+from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+
+class User(AbstractUser):
+    full_name = models.CharField(max_length=100,null=True, blank=False)
+    phone = models.CharField(max_length=20, null=True, blank=False)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'User'
+
+
+class Category(models.Model):
+    category_name = models.CharField(max_length=255)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'category'
+
+
+class Comment(models.Model):
+    content = models.TextField()
+    user = models.ForeignKey(User, models.DO_NOTHING, blank=True, null=True)
+    course = models.ForeignKey('Course', models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'comment'
+
+
+class Course(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField(blank=True, null=True)
+    price = models.FloatField()
+    category = models.ForeignKey(Category, models.DO_NOTHING, blank=True, null=True)
+    instructor = models.ForeignKey('Instructor', models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'course'
+
+
+class Detaillesson(models.Model):
+    content = models.TextField(blank=True, null=True)
+    lesson = models.ForeignKey('Lesson', models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'detaillesson'
+
+
+class Enrollment(models.Model):
+    user = models.ForeignKey(User, models.DO_NOTHING, blank=True, null=True)
+    course = models.ForeignKey(Course, models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'enrollment'
+
+
+class Exercise(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField(blank=True, null=True)
+    detail_lesson = models.ForeignKey(Detaillesson, models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'exercise'
+
+
+class Extend(models.Model):
+    name = models.CharField(max_length=255)
+    course = models.ForeignKey(Course, models.DO_NOTHING, blank=True, null=True)
+    exercise = models.ForeignKey(Exercise, models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'extend'
+
+
+class Grade(models.Model):
+    value = models.FloatField()
+    submission = models.ForeignKey('Submission', models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'grade'
+
+
+class Instructor(models.Model):
+    name = models.CharField(max_length=255)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        managed = False
+        db_table = 'instructor'
+
+
+class Invoice(models.Model):
+    total_amount = models.FloatField()
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'invoice'
+
+
+class Invoicedetails(models.Model):
+    invoice = models.OneToOneField(Invoice, models.DO_NOTHING, primary_key=True)  # The composite primary key (invoice_id, course_id) found, that is not supported. The first column is selected.
+    course = models.ForeignKey(Course, models.DO_NOTHING)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'invoicedetails'
+        unique_together = (('invoice', 'course'),)
+
+
+class Lesson(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField(blank=True, null=True)
+    course = models.ForeignKey(Course, models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'lesson'
+
+
+class Payment(models.Model):
+    amount = models.FloatField()
+    status = models.CharField(max_length=255)
+    shopping_cart = models.ForeignKey('Shoppingcart', models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'payment'
+
+
+class Role(models.Model):
+    role_name = models.CharField(max_length=255)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'role'
+
+
+class Shoppingcart(models.Model):
+    user = models.OneToOneField(User, models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'shoppingcart'
+
+
+class Submission(models.Model):
+    code = models.CharField(max_length=255)
+    exercise = models.ForeignKey(Exercise, models.DO_NOTHING, blank=True, null=True)
+    user = models.ForeignKey(User, models.DO_NOTHING, blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'submission'
+
+
+class Userrole(models.Model):
+    user = models.OneToOneField(User, models.DO_NOTHING, primary_key=True)  # The composite primary key (user_id, role_id) found, that is not supported. The first column is selected.
+    role = models.ForeignKey(Role, models.DO_NOTHING)
+    created_at = models.DateTimeField(blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(blank=True, null=True, auto_now=True)
+
+    class Meta:
+        db_table = 'userrole'
+        unique_together = (('user', 'role'),)

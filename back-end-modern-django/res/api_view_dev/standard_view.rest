@@ -1,0 +1,20 @@
+### API View Signup
+POST http://127.0.0.1:8000/api_view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "admin12322",
+    "password": "admin",
+    "email": "hello@gmail.com",
+    "full_name": "dđsss",
+    "phone": "111111111"
+}
+
+### API View Login
+POST http://127.0.0.1:8000/api_view/sign-in/
+Content-Type: application/json
+
+{
+    "username": "admin1232",
+    "password": "admin"
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "model": "web_app.role",
+        "pk": 1,
+        "fields": {
+            "role_name": "student",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.role",
+        "pk": 2,
+        "fields": {
+            "role_name": "teacher",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.role",
+        "pk": 3,
+        "fields": {
+            "role_name": "manager",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    },
+    {
+        "model": "web_app.role",
+        "pk": 4,
+        "fields": {
+            "role_name": "admin",
+            "created_at": "2024-04-04T01:06:27.943Z",
+            "updated_at": "2024-04-04T01:06:27.943Z"
+        }
+    }
+]

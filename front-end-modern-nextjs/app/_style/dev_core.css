@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-neon {
+    line-height: 80%;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    text-shadow: 0 0 5px #fff,
+        0 0 2.5px #fff,
+        0 0 5px #fff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 30px #0ff;
+}
+
+
+
+.neon-border {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(129deg, #1100ff 0%, #5f68e2 100%);
+        opacity: 0.5;
+        z-index: -1;
+        animation: neon-border-animation 5s ease-in-out infinite alternate;
+    }
+}
+
+
+
+@keyframes neon-border-animation {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+/* -------------------------------------------------- */
+.neon-blind {
+    position: relative;
+    /* width: 300px;
+    height: 200px; */
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0, 255, 255, 0) 0%, rgba(0, 255, 255, 0.5) 50%, rgba(0, 255, 255, 0) 100%);
+        animation: neon-blind-animation 4s infinite alternate;
+    }
+
+    &::after {
+        padding-top: 1.2rem;
+        ;
+        content: "8Sync";
+        position: absolute;
+        color: #0c0e15;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 4rem;
+        height: 4rem;
+        background-color: #0ff;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff, 0 0 80px #0ff;
+        animation: neon-light-animation 4s infinite alternate;
+    }
+}
+
+
+@keyframes neon-blind-animation {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+
+@keyframes neon-light-animation {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+/* -------------------------------------------------- */
+.neon-button {
+    background-color: transparent;
+    border: 2px solid #0ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition: color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px #0ff;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-color: #0ff;
+        opacity: 0.3;
+        transform: rotate(45deg);
+        transition: opacity 0.3s ease;
+        z-index: -1;
+    }
+
+    &:hover::before {
+        opacity: 0;
+    }
+
+    &:hover {
+        /* color: #0ff; */
+        border-color: #0ff;
+        box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff;
+    }
+}
+
+
+
+
+/* -------------------------------------------------- */
+.neon-card-border {
+    background-color: transparent;
+    border: 2px solid #0ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition: color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px #0ff;
+}
+
+/* -------------------------------------------------- */
+.neon-card-flickering {
+    width: 300px;
+    height: 200px;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0ff;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-color: #0ff;
+        animation: flicker 5s infinite alternate;
+    }
+
+    & .neon-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        z-index: 1;
+    }
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+/* -------------------------------------------------- */
+.neon-loading {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.neon-pulse {
+    width: 100%;
+    /* min-height: 50px; */
+    /* height: auto; */
+    background-color: #0ff;
+    border-radius: 20px;
+    animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+/* -------------------------------------------------- */
+.flip-card {
+    background-color: transparent;
+    min-height: 170px;
+    height: fit-content;
+    perspective: 1000px;
+    /* overflow: hidden; */
+
+    &:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    & .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+
+
+        & .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            min-height: 170px;
+            /* overflow: auto; */
+            -webkit-backface-visibility: hidden;
+            /* Safari */
+            backface-visibility: hidden;
+        }
+
+        /* Style the front side (fallback if image is missing) */
+        & .flip-card-front {}
+
+        /* Style the back side */
+        & .flip-card-back {
+            transform: rotateY(180deg);
+        }
+    }
+}

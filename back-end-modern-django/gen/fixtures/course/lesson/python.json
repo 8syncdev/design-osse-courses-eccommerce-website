@@ -1,0 +1,178 @@
+[
+    {
+        "model": "web_app.lesson",
+        "pk": 1,
+        "fields": {
+            "title": "1. Khái Niệm Cơ Bản Python",
+            "description": "Khái niệm cơ bản về ngôn ngữ lập trình Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 2,
+        "fields": {
+            "title": "2. Luồng Điều Khiển",
+            "description": "Luồng điều khiển trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 3,
+        "fields": {
+            "title": "3. Hàm và Modules",
+            "description": "Hàm và Modules trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 4,
+        "fields": {
+            "title": "4. Xử Lý Chuỗi",
+            "description": "Xử lý chuỗi trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 5,
+        "fields": {
+            "title": "5. Danh Sách",
+            "description": "Danh sách trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 6,
+        "fields": {
+            "title": "6. Tuple",
+            "description": "Tuple trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 7,
+        "fields": {
+            "title": "7. Set",
+            "description": "Set trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 8,
+        "fields": {
+            "title": "8. Dictionary",
+            "description": "Dictionary trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 9,
+        "fields": {
+            "title": "9. Array",
+            "description": "Array trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 10,
+        "fields": {
+            "title": "10. Xử Lý File",
+            "description": "Xử lý file trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 11,
+        "fields": {
+            "title": "11. Lập Trình Hướng Đối Tượng",
+            "description": "Lập trình hướng đối tượng trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 12,
+        "fields": {
+            "title": "12. Xử Lý Ngoại Lệ",
+            "description": "Xử lý ngoại lệ trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 13,
+        "fields": {
+            "title": "13. Xử Lý Đa Luồng",
+            "description": "Xử lý đa luồng trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 14,
+        "fields": {
+            "title": "14. Xử Lý Bất Đồng Bộ",
+            "description": "Xử lý bất đồng bộ trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 15,
+        "fields": {
+            "title": "15. Cơ Sở Dữ Liệu",
+            "description": "Cơ sở dữ liệu trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    },
+    {
+        "model": "web_app.lesson",
+        "pk": 16,
+        "fields": {
+            "title": "16. Lập Trình Giao Diện",
+            "description": "Lập trình giao diện trong Python",
+            "course": 3,
+            "created_at": "2024-04-04T09:58:18.622Z",
+            "updated_at": "2024-04-04T09:58:18.622Z"
+        }
+    }
+]

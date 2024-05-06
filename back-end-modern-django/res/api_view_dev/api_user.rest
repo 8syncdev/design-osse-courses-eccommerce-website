@@ -1,0 +1,142 @@
+### Lecture1 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "lecturer1",
+    "password": "adminanhtudev20032712",
+    "email": "lecturer1@gmail.com",
+    "full_name": "GXteam DEV",
+    "phone": "111111111"
+}
+
+### Lecture2 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "lecturer2",
+    "password": "adminanhtudev20032712",
+    "email": "lecturer2@gmail.com",
+    "full_name": "GXteam DEV",
+    "phone": "111111111"
+}
+
+### Lecture3 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "lecturer3",
+    "password": "adminanhtudev20032712",
+    "email": "lecturer3@gmail.com",
+    "full_name": "GXteam DEV",
+    "phone": "111111111"
+}
+
+### Lecture4 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "lecturer4",
+    "password": "adminanhtudev20032712",
+    "email": "lecturer4@gmail.com",
+    "full_name": "GXteam DEV",
+    "phone": "111111111"
+}
+
+### Lecture5 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "lecturer5",
+    "password": "adminanhtudev20032712",
+    "email": "lecturer5@gmail.com",
+    "full_name": "GXteam DEV",
+    "phone": "111111111"
+}
+
+
+### Student1 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "student1",
+    "password": "adminanhtudev20032712",
+    "email": "student1@gmail.com",
+    "full_name": "Student 1",
+    "phone": "111111111"
+}
+
+### Student2 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "student2",
+    "password": "adminanhtudev20032712",
+    "email": "student2@gmail.com",
+    "full_name": "Student 2",
+    "phone": "111111111"
+}
+
+### Student3 registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "student3",
+    "password": "adminanhtudev20032712",
+    "email": "student3@gmail.com",
+    "full_name": "Student 3",
+    "phone": "111111111"
+}
+
+### Manager registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "manager1",
+    "password": "adminanhtudev20032712",
+    "email": "manager1@gmail.com",
+    "full_name": "Manager 1",
+    "phone": "111111111"
+}
+
+### Test registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "adminanhtudev",
+    "password": "anhtudev2003",
+    "email": "techdev.td1111@gmail.com",
+    "full_name": "Nguyen Phuong Anh Tu",
+    "phone": "111111111"
+}
+### Test registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "quincute2004",
+    "password": "quincute2004",
+    "email": "nguyenhoangquyen2004bp@gmail.com",
+    "full_name": "Nguyen Hoang Quyen",
+    "phone": "111111111"
+}
+### Test registration
+POST http://127.0.0.1:8000/pbkdf2_sha256390000jwfsotswr778gvfsh7wj7fnjacn7hmzwxfbd9cjxpabqqinw0ug2gvi494rrg8m/api-view/sign-up/
+Content-Type: application/json
+
+{
+    "username": "usebfarsc1",
+    "password": "user1",
+    "email": "user222213@gmail.com",
+    "full_name": "Nguyen Hoang Quyen",
+    "phone": "111111111"
+}

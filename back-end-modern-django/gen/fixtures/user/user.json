@@ -1,0 +1,222 @@
+[
+    {
+        "model": "web_app.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$TnPdn9MW5b94HAunuIhWep$R8pm5N7aRfqT0WFbZMx2dArsmvJbeXibxyH7CXAbC0c=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lecturer1",
+            "first_name": "",
+            "last_name": "",
+            "email": "lecturer1@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:05:06.578Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:05:06.578Z",
+            "updated_at": "2024-05-01T01:05:06.829Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$yBs93ibFxicTFMbexvVwCl$PwJAe4MQ40hBmBL//gC3Yt8CkHEK/EI3r4dzJzAjBxo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lecturer2",
+            "first_name": "",
+            "last_name": "",
+            "email": "lecturer2@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:05:34.647Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:05:34.647Z",
+            "updated_at": "2024-05-01T01:05:34.878Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$7699F0lL5ZywgD6n5CH4OW$VZsdocgEMhEefjJjVCOzl8zRbw6klnWScSfzqFDUcMo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lecturer3",
+            "first_name": "",
+            "last_name": "",
+            "email": "lecturer3@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:05:39.485Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:05:39.485Z",
+            "updated_at": "2024-05-01T01:05:39.728Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$hEEiuHgvDwnfkBoQtnAuBU$egu1ZkPOmU4KxDW0+2EvGFDy4Yw3uo96ZD5dM9WxHug=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lecturer4",
+            "first_name": "",
+            "last_name": "",
+            "email": "lecturer4@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:05:44.546Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:05:44.546Z",
+            "updated_at": "2024-05-01T01:05:44.794Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$fYy0qi7n179C02P6bXYYHk$eL1sHL26ajl47SvPskgOWhQCD+a7C3aSwBCj0+zXxzE=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lecturer5",
+            "first_name": "",
+            "last_name": "",
+            "email": "lecturer5@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:06:17.827Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:06:17.827Z",
+            "updated_at": "2024-05-01T01:06:18.061Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$twLGHLoY2iVJ9PkZZuoLsv$8Uo+jFpeVBOLyxP5fpvfwUt39NAbvNUnQ76JweeIFYY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "student1",
+            "first_name": "",
+            "last_name": "",
+            "email": "student1@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:06:29.817Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:06:29.817Z",
+            "updated_at": "2024-05-01T01:06:30.062Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$8URgHPAjwJf6CVRn1Bf1Zv$M9jYk7styoLGJm/a4PuvHvJiC6HhDRmGiW/BaIYddeg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "student2",
+            "first_name": "",
+            "last_name": "",
+            "email": "student2@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:06:40.602Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:06:40.602Z",
+            "updated_at": "2024-05-01T01:06:40.845Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$QKaHRhU8PehiAsrUep0axG$1ShkFbL9ETojG10fkwNCOk7H/xVx8eefNSchLu3Zmxo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "student3",
+            "first_name": "",
+            "last_name": "",
+            "email": "student3@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:06:44.173Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:06:44.173Z",
+            "updated_at": "2024-05-01T01:06:44.410Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$neP5fn4UCpsskC414SbrXq$E3pnnh4//j5wZzUY/T81y0gbT6pOrZGMiMICUC+oZ4o=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "manager1",
+            "first_name": "",
+            "last_name": "",
+            "email": "manager1@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:06:47.443Z",
+            "full_name": " ",
+            "phone": "111111111",
+            "created_at": "2024-05-01T01:06:47.443Z",
+            "updated_at": "2024-05-01T01:06:47.693Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web_app.user",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$fSpo1cM7o0lXLqXxJkk9so$H9eVnxhOJkeCOpS85KdUqbqbTBem/yLuIx/5IXfG+0o=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "adminanhtudev",
+            "first_name": "",
+            "last_name": "",
+            "email": "techdev.td1111@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-05-01T01:07:17.309Z",
+            "full_name": " ",
+            "phone": "0703930513",
+            "created_at": "2024-05-01T01:07:17.309Z",
+            "updated_at": "2024-05-01T01:07:17.558Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
